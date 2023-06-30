@@ -26,8 +26,8 @@ The 30 emotion categories are:
 
 The file data/category_names.pt provides a python list with these categories. Note that the samples are labled 01-30, but the categores in the python list are 0-29. A simple:
 
- __import torch
- category_names=torch.load('data/category-names.pt')__ 
+ __import torch__
+ __category_names=torch.load('data/category-names.pt')__ 
 
 will bring them in.
 
