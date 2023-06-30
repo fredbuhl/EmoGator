@@ -1,0 +1,3 @@
+#!/bin/bash
+ffmpeg -i $* 2>&1 | grep Duration | cut -c 19-23
+
